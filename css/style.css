@@ -1,0 +1,576 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    background-size: cover;
+	-webkit-backdrop-filter: blur(4px);
+	backdrop-filter: blur(4px);
+}
+
+header {
+    padding: 0px;
+}
+
+.imgLogo{
+    -webkit-transition: .5s, color .10s;
+    -moz-transition: .5s, color .10s;
+    transition: .5s, color .10s;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.imgLogo:hover{  
+    -webkit-transform: scale3d(1.3, 1.3, 1);
+    -moz-transform: scale3d(1.3, 1.3, 1);
+    transform: scale3d(1.3, 1.3, 1);
+}
+
+h1 {
+    text-align: center;
+    padding: 1em 0 1em 0;
+    margin: 0 0 10px 0;
+}
+
+h1 span {
+    color: #004fec;
+    font-size: 1.5em;
+    border: 3px dashed #0d00ff;
+    padding: 8px;
+    font-family: "Handlee", cursive;
+}
+
+h3 {
+    text-align: center;
+}
+
+h3 span {
+    margin: auto;
+    font-weight: normal;
+    padding-left: 50px;
+}
+
+h5 {
+    margin: 0px;
+}
+
+button.nav-link.libre.active {
+    background-color: #d6d6d6b7;
+}
+
+button.nav-link.sloth.active {
+    background-color: #fe3b00;
+}
+
+button.nav-link.gula.active {
+    background-color: #0022ffb3;
+}
+
+button.nav-link.dragon.active {
+    background-color: #ff1900ec;
+}
+
+button.nav-link.cabra.active {
+    background-color: #9800b3;
+}
+
+button.nav-link.zorro.active {
+    background-color: #2eac00;
+}
+
+button.nav-link.orgullo.active {
+    background-color: #00e5ffb3;
+}
+
+button.nav-link.angie.active {
+    background-color: #fe00f6;
+}
+
+#titulo-makein {
+    border: 3px dashed #ff8800;
+    padding: 10px;
+    color: #ff8800;
+}
+#titulo-rayo {
+    border: 3px dashed #0011f8;
+    padding: 10px;
+    color: #0011f8;
+}
+#titulo-diego {
+    border: 3px dashed #f80000;
+    padding: 10px;
+    color: #f80000;
+}
+#titulo-stanli {
+    border: 3px dashed #530053;
+    padding: 10px;
+    color: #530053;
+}
+#titulo-santy {
+    border: 3px dashed #005317;
+    padding: 10px;
+    color: #005317;
+}
+#titulo-angie {
+    border: 3px dashed #53003b;
+    padding: 10px;
+    color: #53003b;
+}
+#notas {
+    padding-left: 3%;
+    padding-right: 3%;
+}
+p {
+    padding: 0;
+    margin: 0;
+}
+.section {
+    border: solid 2px;
+    border-color: rgba(0, 247, 255, 0.521);
+    background-color: rgba(255, 255, 255, 0.808);
+    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(15px);
+    box-shadow: 5px 10px 15px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table {
+    width: 100%;
+    font-size: 0.9em;
+    margin: auto;
+    margin-top: 2em;
+}
+
+table,
+th,
+td {
+    border: 2px solid #00000025;
+    border-collapse: collapse;
+    text-align: center;
+    table-layout: fixed;
+    align-content: center;
+    max-width: 1200px;
+}
+
+.fem {
+    background-color: #8100a1;
+    font-weight: bold;
+    color: white;
+}
+.vectorial {
+    background-color: #0039d4;
+    font-weight: bold;
+    color: white;
+}
+.pensamiento {
+    background-color: #000e69;
+    font-weight: bold;
+    color: white;
+}
+.ingles {
+    background-color: #00771e;
+    font-weight: bold;
+    color: white;
+}
+.programacion {
+    background-color: #006961;
+    font-weight: bold;
+    color: white;
+}
+.react {
+    background-color: #c87100;
+    font-weight: bold;
+    color: white;
+}
+.redes {
+    background-color: #4b7000;
+    font-weight: bold;
+    color: white;
+}
+.digital {
+    background-color: #807d00;
+    font-weight: bold;
+    color: white;
+}
+.core {
+    background-color: #8b0000;
+    font-weight: bold;
+    color: white;
+}
+.bases-de-datos {
+    background-color: #0c9499;
+    font-weight: bold;
+    color: white;
+}
+
+/* Materias rayo*/
+.circuitos {
+    background-color: #0039d4;
+    font-weight: bold;
+    color: white;
+}
+.integral {
+    background-color: #00771e;
+    font-weight: bold;
+    color: white;
+}
+.fisiologia {
+    background-color: #005205;
+    font-weight: bold;
+    color: white;
+}
+.digitales {
+    background-color: #5f0069;
+    font-weight: bold;
+    color: white;
+}
+.lab-digitales {
+    background-color: #380069;
+    font-weight: bold;
+    color: white;
+}
+.biofisica {
+    background-color: #003c69;
+    font-weight: bold;
+    color: white;
+}
+.lab-biofisica {
+    background-color: #001069;
+    font-weight: bold;
+    color: white;
+}
+.electronica {
+    background-color: #5d0800;
+    font-weight: bold;
+    color: white;
+}
+.lab-electronica {
+    background-color: #87101c;
+    font-weight: bold;
+    color: white;
+}
+.lab-fisica {
+    background-color: #001069;
+    font-weight: bold;
+    color: white;
+}
+.anatomia {
+    background-color: #807d00;
+    font-weight: bold;
+    color: white;
+}
+/* fem igual que makein*/
+.biomateriales {
+    background-color: #8b0000;
+    font-weight: bold;
+    color: white;
+}
+
+/* Materias diego*/
+.materiales {
+    background-color: #00461d;
+    font-weight: bold;
+    color: white;
+}
+.fluidos {
+    background-color: #080080;
+    font-weight: bold;
+    color: white;
+}
+.diferenciales {
+    background-color: #958d00;
+    font-weight: bold;
+    color: white;
+}
+.marketing {
+    background-color: #770071;
+    font-weight: bold;
+    color: white;
+}
+.construccion {
+    background-color: #490077;
+    font-weight: bold;
+    color: white;
+}
+.lab-materiales {
+    background-color: #55002d;
+    font-weight: bold;
+    color: white;
+}
+.mecanica-suelo {
+    background-color: #005577;
+    font-weight: bold;
+    color: white;
+}
+.lab-mecanica-suelo {
+    background-color: #001477;
+    font-weight: bold;
+    color: white;
+}
+.numericos {
+    background-color: #005212;
+    font-weight: bold;
+    color: white;
+}
+.diseño-vias {
+    background-color: #774000;
+    font-weight: bold;
+    color: white;
+}
+
+/* Materias de Stanli*/
+.teoria {
+    background-color: #770071;
+    font-weight: bold;
+    color: white;
+}
+.teclado {
+    background-color: #00522c;
+    font-weight: bold;
+    color: white;
+}
+.gramatica {
+    background-color: #000f52;
+    font-weight: bold;
+    color: white;
+}
+.edicion-musical {
+    background-color: #006ca6;
+    font-weight: bold;
+    color: white;
+}
+.diversidad {
+    background-color: #8c0000;
+    font-weight: bold;
+    color: white;
+}
+.seminario {
+    background-color: #028e00;
+    font-weight: bold;
+    color: white;
+}
+.historia-musica {
+    background-color: #524600;
+    font-weight: bold;
+    color: white;
+}
+.guitarra {
+    background-color: #00524e;
+    font-weight: bold;
+    color: white;
+}
+.canciones {
+    background-color: #524a00;
+    font-weight: bold;
+    color: white;
+}
+.creacion {
+    background-color: #520000;
+    font-weight: bold;
+    color: white;
+}
+.historia {
+    background-color: #007a29;
+    font-weight: bold;
+    color: white;
+}
+.lenguaje {
+    background-color: #a5c200;
+    font-weight: bold;
+    color: white;
+}
+
+/*Materias Santy*/
+.expresion {
+    background-color: #007728;
+    font-weight: bold;
+    color: white;
+}
+.fotograficas {
+    background-color: #002877;
+    font-weight: bold;
+    color: white;
+}
+.emprendimiento {
+    background-color: #6b7700;
+    font-weight: bold;
+    color: white;
+}
+.diseño {
+    background-color: #770000;
+    font-weight: bold;
+    color: white;
+}
+.animacion {
+    background-color: #3c0077;
+    font-weight: bold;
+    color: white;
+}
+.dibujo {
+    background-color: #930067;
+    font-weight: bold;
+    color: white;
+}
+
+/* Materias Angie*/
+.historia-arte {
+    background-color: #470093;
+    font-weight: bold;
+    color: white;
+}
+.estructural {
+    background-color: #00375f;
+    font-weight: bold;
+    color: white;
+}
+.teoria-ii {
+    background-color: #00471b;
+    font-weight: bold;
+    color: white;
+}
+.aguadas {
+    background-color: #510000;
+    font-weight: bold;
+    color: white;
+}
+.modelado {
+    background-color: #4a5100;
+    font-weight: bold;
+    color: white;
+}
+
+.No {
+    background-color: #930000;
+    font-weight: bold;
+    color: white;
+    font-size: 25px;
+}
+
+.Si {
+    background-color: #009300;
+    font-weight: bold;
+    color: white;
+    font-size: 25px;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #f36f48;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+p span {
+    font-size: 15px;
+    font-weight: bold;
+    text-align: right;
+}
+
+/*Código para cambiar la barra deslizadora*/
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(to bottom, #004fec, #00d6fb);
+    border-radius: 25px;
+    border: 2px solid blue;
+}
+
+::-webkit-scrollbar-track {
+    background: midnightblue;
+}
+
+/* Una wea que no comprendo pero espero comprender*/
+
+.contenedor {
+    padding: 2em;
+    margin: 0.5em 1.1em 1em 1.1em;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.contenedor .ul {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: space-around;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.contenedor .li {
+    padding: 1em;
+    margin: auto;
+    color: black;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    border-radius: 0.5em;
+    background-color: white;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.container .li.activo {
+    background-color: rgb(70, 0, 82);
+    color: white;
+}
+
+.container .subcontenedor {
+    min-height: 10vh;
+    position: relative;
+}
+
+.container .bloque {
+    margin: auto;
+    padding: 1em;
+    position: absolute;
+    color: black;
+    -webkit-transition: all 0.1s ease;
+    transition: all 0.1s ease;
+    border-radius: 0.5em;
+    background-color: #f6baff;
+    opacity: 0;
+    -webkit-transform: translateY(-130%);
+    transform: translateY(-130%);
+    -webkit-transition: all 1s ease;
+    transition: all 0.6s ease-in-out;
+}
+
+.container .bloque.activo {
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+    transform: translateY(0%);
+}
+
+footer{
+    align-self: flex-end;
+	text-align: center;
+	color: ghostwhite;
+	background-color: black;
+	font-size: 16px;
+	font-family: 'Handlee', cursive;
+	width: 100%;
+    padding: 6px 0px 0px 0px;
+}
