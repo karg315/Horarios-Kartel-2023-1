@@ -16,6 +16,10 @@ header {
     padding: 0px;
 }
 
+.nav-item {
+    font-size: 17px;
+}
+
 .imgLogo{
     -webkit-transition: .5s, color .10s;
     -moz-transition: .5s, color .10s;
@@ -39,7 +43,7 @@ h1 span {
     color: #004fec;
     font-size: 1.5em;
     border: 3px dashed #0d00ff;
-    padding: 8px;
+    padding: 10px;
     font-family: "Handlee", cursive;
 }
 
@@ -91,32 +95,26 @@ button.nav-link.angie.active {
 
 #titulo-makein {
     border: 3px dashed #ff8800;
-    padding: 10px;
     color: #ff8800;
 }
 #titulo-rayo {
     border: 3px dashed #0011f8;
-    padding: 10px;
     color: #0011f8;
 }
 #titulo-diego {
     border: 3px dashed #f80000;
-    padding: 10px;
     color: #f80000;
 }
 #titulo-stanli {
     border: 3px dashed #530053;
-    padding: 10px;
     color: #530053;
 }
 #titulo-santy {
     border: 3px dashed #005317;
-    padding: 10px;
     color: #005317;
 }
 #titulo-angie {
     border: 3px dashed #53003b;
-    padding: 10px;
     color: #53003b;
 }
 #notas {
@@ -140,6 +138,7 @@ p {
     max-width: 1300px;
     margin-left: auto;
     margin-right: auto;
+    overflow-x: scroll;
 }
 
 table {
@@ -147,6 +146,7 @@ table {
     font-size: 0.9em;
     margin: auto;
     margin-top: 2em;
+    min-width: 600px;
 }
 
 table,
@@ -160,291 +160,186 @@ td {
     max-width: 1200px;
 }
 
-.fem {
-    background-color: #8100a1;
+.materia {
     font-weight: bold;
     color: white;
+}
+
+.fem {
+    background-color: #8100a1;
 }
 .vectorial {
     background-color: #0039d4;
-    font-weight: bold;
-    color: white;
 }
 .pensamiento {
     background-color: #000e69;
-    font-weight: bold;
-    color: white;
 }
 .ingles {
     background-color: #00771e;
-    font-weight: bold;
-    color: white;
 }
 .programacion {
     background-color: #006961;
-    font-weight: bold;
-    color: white;
 }
 .react {
     background-color: #c87100;
-    font-weight: bold;
-    color: white;
 }
 .redes {
     background-color: #4b7000;
-    font-weight: bold;
-    color: white;
 }
 .digital {
     background-color: #807d00;
-    font-weight: bold;
-    color: white;
 }
 .core {
     background-color: #8b0000;
-    font-weight: bold;
-    color: white;
 }
 .bases-de-datos {
     background-color: #0c9499;
-    font-weight: bold;
-    color: white;
 }
 
 /* Materias rayo*/
 .circuitos {
     background-color: #0039d4;
-    font-weight: bold;
-    color: white;
 }
 .integral {
     background-color: #00771e;
-    font-weight: bold;
-    color: white;
 }
 .fisiologia {
     background-color: #005205;
-    font-weight: bold;
-    color: white;
 }
 .digitales {
     background-color: #5f0069;
-    font-weight: bold;
-    color: white;
 }
 .lab-digitales {
     background-color: #380069;
-    font-weight: bold;
-    color: white;
 }
 .biofisica {
     background-color: #003c69;
-    font-weight: bold;
-    color: white;
 }
 .lab-biofisica {
     background-color: #001069;
-    font-weight: bold;
-    color: white;
 }
 .electronica {
     background-color: #5d0800;
-    font-weight: bold;
-    color: white;
 }
 .lab-electronica {
     background-color: #87101c;
-    font-weight: bold;
-    color: white;
 }
 .lab-fisica {
     background-color: #001069;
-    font-weight: bold;
-    color: white;
 }
 .anatomia {
     background-color: #807d00;
-    font-weight: bold;
-    color: white;
 }
 /* fem igual que makein*/
 .biomateriales {
     background-color: #8b0000;
-    font-weight: bold;
-    color: white;
 }
 
 /* Materias diego*/
 .materiales {
     background-color: #00461d;
-    font-weight: bold;
-    color: white;
 }
 .fluidos {
     background-color: #080080;
-    font-weight: bold;
-    color: white;
 }
 .diferenciales {
     background-color: #958d00;
-    font-weight: bold;
-    color: white;
 }
 .marketing {
     background-color: #770071;
-    font-weight: bold;
-    color: white;
 }
 .construccion {
     background-color: #490077;
-    font-weight: bold;
-    color: white;
 }
 .lab-materiales {
     background-color: #55002d;
-    font-weight: bold;
-    color: white;
 }
 .mecanica-suelo {
     background-color: #005577;
-    font-weight: bold;
-    color: white;
 }
 .lab-mecanica-suelo {
     background-color: #001477;
-    font-weight: bold;
-    color: white;
 }
 .numericos {
     background-color: #005212;
-    font-weight: bold;
-    color: white;
 }
 .diseño-vias {
     background-color: #774000;
-    font-weight: bold;
-    color: white;
 }
 
 /* Materias de Stanli*/
 .teoria {
     background-color: #770071;
-    font-weight: bold;
-    color: white;
 }
 .teclado {
     background-color: #00522c;
-    font-weight: bold;
-    color: white;
 }
 .gramatica {
     background-color: #000f52;
-    font-weight: bold;
-    color: white;
 }
 .edicion-musical {
     background-color: #006ca6;
-    font-weight: bold;
-    color: white;
 }
 .diversidad {
     background-color: #8c0000;
-    font-weight: bold;
-    color: white;
 }
 .seminario {
     background-color: #028e00;
-    font-weight: bold;
-    color: white;
 }
 .historia-musica {
     background-color: #524600;
-    font-weight: bold;
-    color: white;
 }
 .guitarra {
     background-color: #00524e;
-    font-weight: bold;
-    color: white;
 }
 .canciones {
     background-color: #524a00;
-    font-weight: bold;
-    color: white;
 }
 .creacion {
     background-color: #520000;
-    font-weight: bold;
-    color: white;
 }
 .historia {
     background-color: #007a29;
-    font-weight: bold;
-    color: white;
 }
 .lenguaje {
     background-color: #a5c200;
-    font-weight: bold;
-    color: white;
 }
 
 /*Materias Santy*/
 .expresion {
     background-color: #007728;
-    font-weight: bold;
-    color: white;
 }
 .fotograficas {
     background-color: #002877;
-    font-weight: bold;
-    color: white;
 }
 .emprendimiento {
     background-color: #6b7700;
-    font-weight: bold;
-    color: white;
 }
 .diseño {
     background-color: #770000;
-    font-weight: bold;
-    color: white;
 }
 .animacion {
     background-color: #3c0077;
-    font-weight: bold;
-    color: white;
 }
 .dibujo {
     background-color: #930067;
-    font-weight: bold;
-    color: white;
 }
 
 /* Materias Angie*/
 .historia-arte {
     background-color: #470093;
-    font-weight: bold;
-    color: white;
 }
 .estructural {
     background-color: #00375f;
-    font-weight: bold;
-    color: white;
 }
 .teoria-ii {
     background-color: #00471b;
-    font-weight: bold;
-    color: white;
 }
 .aguadas {
     background-color: #510000;
-    font-weight: bold;
-    color: white;
 }
 .modelado {
     background-color: #4a5100;
-    font-weight: bold;
-    color: white;
 }
 
 .No {
@@ -465,6 +360,10 @@ hr {
     border: 0;
     height: 1px;
     background: #f36f48;
+}
+
+ul {
+    font-size: 22px;
 }
 
 h2 {
