@@ -324,6 +324,18 @@ td {
 .dibujo {
     background-color: #930067;
 }
+.tresdbasico {
+    background-color: #2eac00;
+}
+.metodologia {
+    background-color: darkcyan;
+}
+.guion {
+    background-color: #797500;
+}
+.literatura {
+    background-color: #040077;
+}
 
 /* Materias Angie*/
 .historia-arte {
